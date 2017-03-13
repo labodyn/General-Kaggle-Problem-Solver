@@ -1,0 +1,59 @@
+git commands:
+
+git diff
+	diff between working and stage.
+git diff <commitname1> <commitname2>
+	diff between two commits
+git diff --staged 
+	diff between stage and last commit
+git reset --hard
+	reset working and stage
+git clone <linktogithub>
+	clone gitfiles to local
+git checkout <commitname>
+	change to commit temporarily
+git log
+	show commits
+git init
+	make git folder from folder
+git status
+	show working and stage folders
+git add
+	add working folder to stage
+git commit
+	add stage to commit
+git branch
+	tell branchename
+git branch <branchname>
+	make branch
+git log --graph --oneline <branches>
+	make a logical graph of all the commits and branches
+git checkout -b <newbranchname>
+	goto branch
+git show <commitname>
+	diff between commit and previous commit. (Handy when branched tree)
+git branch -d <branchname>
+	delete branchname
+git merge <branch1> <branch2>
+	merge branches
+git commit -a
+	?commit working, no stage
+git log -n <number>
+	last ... commits
+git remote
+	view all remotes
+git remote -v
+	view more arguments
+git remote add <remotename, often origin if just one> <url>
+	create link to remote
+git push <remotename> <branchname> 
+	sent branch to remote
+git pull <remotename> <branchname> 
+	pull branch from remote
+git config --global credential.helper 'cache --timeout=3600'
+	set timeout for password
+git fetch origin
+	pull without merging. (aka create origin/master next to master)
+
+	pull request: ask to merge newbranch with master. Further commits with stack onto this as long as not yet merged.
+
