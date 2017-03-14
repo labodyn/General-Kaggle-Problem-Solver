@@ -16,15 +16,18 @@ competitions :
 
 working out the characteristics of churners allows a company to product adjustments and an online algorithm allows them to reach out to churners
 usage: can be both an online algorithm and a statistic report showing the characteristics of likely churners
-Customer segmentation
+
+## Customer segmentation
 
 If you can understand qualitatively different customer groups, then we can give them different treatments (perhaps even by different groups in the company). Answers questions like: what makes people buy, stop buying etc
 usage: static report
-Product mix
+
+## Product mix
 
 What mix of products offers the lowest churn? eg. Giving a combined policy discount for home + auto = low churn
 usage: online algorithm and static report
-Cross selling/Recommendation algorithms/
+
+## Cross selling/Recommendation algorithms/
 
 Given a customer's past browsing history, purchase history and other characteristics, what are they likely to want to purchase in the future?
 usage: online algorithm
